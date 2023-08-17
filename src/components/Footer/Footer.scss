@@ -1,0 +1,44 @@
+.footerContainer{
+    background-color: #ECEBE9;;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    .footerTitle{
+        font-family: La Beauties;
+        font-weight: lighter;
+        text-align: center;
+    }
+    .footerUlContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .footerUl{
+            display: flex;
+            text-decoration: none;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+            font-family: Caviar Dreams;
+            .footerLi{
+                cursor: pointer;
+                text-decoration: none;
+                list-style: none;
+                color: black;
+            }
+            .footerLi:hover{
+                font-weight: bold;
+            }
+        }
+    }
+    .footerLocationParagraph{
+        font-family: Caviar Dreams;    
+        text-transform: uppercase;   
+        text-align: center;         
+    }
+    .footerWings{
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+}

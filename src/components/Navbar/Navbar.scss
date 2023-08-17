@@ -1,0 +1,38 @@
+.NavbarContainer{
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 152%;
+    font-family: Caviar Dreams;
+    .NavbarRow{
+        .NavbarColumn{
+            .NavbarUl{
+                .NavbarLi{
+                    text-decoration: none;
+                    list-style: none;
+                    cursor: pointer;
+                    color: black;
+                    .NavbarLiA {
+                        position: relative;
+                        }
+                    .NavbarLiA::after {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 100%;
+                        height: 1px;
+                        background-color: currentColor;
+                        transform: scaleX(0);
+                        transform-origin: left;
+                        transition: transform 200ms ease-in;
+                        }
+                    .NavbarLiA:hover::after {
+                        transform: scaleX(1);
+                    }
+                }
+            }
+        }
+    }
+}

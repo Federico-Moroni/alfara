@@ -1,0 +1,44 @@
+.ContactoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .ContactoCol{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .ContactoSideDiv{
+            background-color: rgb(197, 197, 172);
+        }
+        .ContactoContainerInfo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .FormTitle {
+                text-transform: uppercase;
+                font-weight: lighter;
+                }
+            .FormSocial {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: space-around;
+                .FormSocialMedia {
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                    text-transform: none;
+                    .SocialMediaHover:hover {
+                        scale: 1.1;
+                    }                
+                    .FormSocialMediaImage {
+                        display: flex;
+                    }                
+                    .FormSocialMediaTag {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}

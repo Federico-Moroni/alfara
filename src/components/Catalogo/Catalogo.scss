@@ -1,0 +1,33 @@
+.catalogoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .catalogoRow{
+        .catalogoCol{
+            display: flex;
+            justify-content: center;
+            .catalogoBackground{
+                background-image: url(https://res.cloudinary.com/dqyirr5ik/image/upload/v1687912777/CatalogoBeigeFondo_vbmqzo.avif);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .catalogoTitle{
+                font-family: La Beauties;
+                font-weight: lighter;
+                position: absolute;
+                text-align: center;
+            }
+            .catalogoDescarga{
+                border: 1px solid black;
+                position: absolute;
+                text-transform: uppercase;
+                border-radius: 5px;
+            }
+            .catalogoDescarga:hover{
+                cursor: pointer;
+                background-color: black;
+                color: white;
+                }
+                }
+            }
+        }

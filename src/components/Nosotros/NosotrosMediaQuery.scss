@@ -1,0 +1,269 @@
+@media all and (min-width: 1500px) {
+    .NosotrosContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .NosotrosCol{
+        .NosotrosGreyRectangle{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 94vw;
+            height: 300px;
+            .NosotrosGreyRectangleText {
+                font-size: 20px;
+                width: 55vw;
+                margin-left: 1.5vw;
+                .NosotrosTitle {
+                        margin-bottom: 23px;
+                    }
+                    .NosotrosSignature {
+                        text-align: right;
+                        font-size: 50px;
+                    }
+                }
+            }
+            .NosotrosBackgroundImage{
+                background-color: #FFF;
+                width: 28vw;
+                height: 65vh;
+                margin-left: 60vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            .NosotrosImage {
+                width: 25vw;
+                height: 60vh;
+                }
+            }    
+        }
+    }   
+}
+
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+    .NosotrosContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .NosotrosCol {
+            .NosotrosGreyRectangle {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 94vw;
+                height: 300px;
+                .NosotrosGreyRectangleText {
+                    font-size: 20px;
+                    width: 55vw;
+                    margin-left: 1.5vw;
+                    .NosotrosTitle {
+                        margin-bottom: 23px;
+                    }
+                    .NosotrosSignature {
+                        text-align: right;
+                        font-size: 50px;
+                    }
+                }
+            }
+            .NosotrosBackgroundImage {
+                background-color: #FFF;
+                width: 30vw;
+                height: 65vh;
+                margin-left: 60vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .NosotrosImage {
+                    width: 28vw;
+                    height: 60vh;
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 993px) and (max-width: 1199px) {
+    .NosotrosContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .NosotrosCol {
+            .NosotrosGreyRectangle {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 94vw;
+                height: 300px;
+                .NosotrosGreyRectangleText {
+                    font-size: 18px;
+                    width: 55vw;
+                    margin-left: 1.5vw;
+
+                    .NosotrosTitle {
+                        margin-bottom: 23px;
+                    }
+                    .NosotrosSignature {
+                        text-align: right;
+                        font-size: 50px;
+                    }
+                }
+            }
+            .NosotrosBackgroundImage {
+                background-color: #FFF;
+                width: 33vw;
+                height: 65vh;
+                margin-left: 60vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .NosotrosImage {
+                    width: 31vw;
+                    height: 60vh;
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+    .NosotrosContainer {
+        height: 50vh;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        .NosotrosCol {
+            .NosotrosGreyRectangle {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 80vw;
+                height: 40vh;
+                .NosotrosGreyRectangleText {
+                    font-size: 16px;
+                    width: 55vw;
+                    text-align: justify;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    height: 90%;
+                    .NosotrosTitle {
+                        text-align: center;
+                    }
+                    .NosotrosSignature {
+                        text-align: center;
+                        font-size: 40px;
+                    }
+                }
+            }
+            .NosotrosBackgroundImage {
+                display: none;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 576px) and (max-width: 768px) {
+    .NosotrosContainer {
+        height: 60vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .NosotrosCol {
+            .NosotrosGreyRectangle {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 90vw;
+                height: 35vh;
+                .NosotrosGreyRectangleText {
+                    font-size: 16px;
+                    width: 70vw;
+                    text-align: justify;
+                    height: 90%;
+                    .NosotrosTitle {
+                        margin-bottom: 23px;
+                        text-align: center;
+                    }
+                    .NosotrosSignature {
+                        text-align: center;
+                        font-size: 40px;
+                    }
+                }
+            }
+            .NosotrosBackgroundImage {
+                width: 60vw;
+                height: 65vh;
+                margin-top: 50vh;
+                margin-left: 10.2vw;
+                background-color: transparent;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .NosotrosImage {
+                    display: none;
+                    .NosotrosImageOffsetBorder {
+                        border: 0px solid #FFF;
+                        width: 300px;
+                        height: 90%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 200px) and (max-width: 575px) {
+    .NosotrosContainer {
+        margin-top: 10vh;
+        height: 60vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .NosotrosCol {
+            .NosotrosGreyRectangle {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 90vw;
+                height: 45vh;
+                .NosotrosGreyRectangleText {
+                    font-size: 16px;
+                    width: 70vw;
+                    text-align: justify;
+                    height: 90%;
+                    .NosotrosTitle {
+                        margin-bottom: 23px;
+                        text-align: center;
+                    }
+                    .NosotrosSignature {
+                        text-align: center;
+                        font-size: 40px;
+                    }
+                }
+            }
+            .NosotrosBackgroundImage {
+                width: 60vw;
+                height: 65vh;
+                margin-top: 50vh;
+                margin-left: 10.2vw;
+                background-color: transparent;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .NosotrosImage {
+                    display: none;
+                    .NosotrosImageOffsetBorder {
+                        border: 0px solid #FFF;
+                        width: 300px;
+                        height: 90%;
+                    }
+                }
+            }
+        }
+    }
+}

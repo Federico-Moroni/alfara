@@ -1,0 +1,17 @@
+.HeroContainer {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    .HeroCol{
+        .HeroHeader{
+            position: absolute;
+            font-weight: lighter;
+        }
+        .HeroHeader1{
+            font-family: La Beauties;
+        }
+        .HeroHeader2{
+            font-family: Caviar Dreams;
+        }
+    }
+}

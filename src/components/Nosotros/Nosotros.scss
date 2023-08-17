@@ -1,0 +1,49 @@
+.NosotrosContainer{
+    height: 80vh;
+    width: 100vw;
+    .NosotrosCol{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .NosotrosGreyRectangle{
+            font-family: Caviar Dreams;
+            background-color: #ECEBE9;
+            .NosotrosGreyRectangleText{
+                text-align: left;
+                .NosotrosTitle {
+                    letter-spacing: 4px;
+                    font-weight: lighter;
+                    text-align: left;
+                    text-transform: uppercase;
+                }
+                .NosotrosText {
+                    margin-bottom: 15px;
+                }
+                .NosotrosSignature {
+                    text-align: right;
+                    font-family: La Beauties;
+                }
+            }
+        }
+        .NosotrosBackgroundImage{
+            position: absolute;
+            background-color: #FFF;
+        .NosotrosImage{
+            position: relative;
+            background-image: url(https://res.cloudinary.com/dqyirr5ik/image/upload/v1687827468/Nosotros_fiif0f.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .NosotrosImageOffsetBorder{
+                border: 1px solid #FFF;
+                width: 90%;
+                border-radius: 10px;
+                height: 90%;
+                }
+            }
+        }
+    }
+}

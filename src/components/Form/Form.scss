@@ -1,0 +1,43 @@
+.Form {
+    border-radius: .8em;
+    font-family: Caviar Dreams;
+    padding: 3% 3%;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 12px;
+    display: flex;
+    align-items: center;
+    .FormDiv {
+        width: 20vw;
+        height: 90%;
+        .FormTitle {
+            font-size: 1.8em;
+            text-transform: uppercase;
+            margin-bottom: 10%;
+            font-weight: bold;
+        }
+        .FormSocial{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-around;
+            height: 70%;
+            .FormSocialMedia{
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                text-transform: none;
+                height: 50px;
+                .SocialMediaHover:hover{
+                    scale: 1.1;
+                }
+                .FormSocialMediaImage{
+                    transform: scale(0.5);
+                    display: flex;
+                }
+                .FormSocialMediaTag{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}

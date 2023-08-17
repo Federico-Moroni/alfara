@@ -1,0 +1,325 @@
+@media all and (min-width: 1500px) {
+    .ContactoContainer {
+        width: 100vw;
+        height: 100vh;
+        .ContactoCol {
+            width: 80vw;
+            height: 80vh;
+            .ContactoSideDiv{
+                width: 10vw;
+                height: 70vh;
+            }
+            .ContactoTextContainer{
+                width: 25vw;
+                height: 40vh;
+            }
+            .ContactoContainerInfo {
+                font-family: Caviar Dreams;
+                width: 70vw;
+                height: 80vh;
+                .ContactoForm{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 60vw;
+                    height: 70vh;
+                    border-radius: 30px;
+                    background-color: #fff;
+                    color: black;
+                    box-shadow: 1px 7px 25px rgba(219, 215, 215, 0.7);
+                    .ContactoTextContainer{
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 100px;
+                        .FormTitle {
+                            font-size: 30px;
+                            margin-bottom: 5%;
+                            }
+                        .FormSocial {
+                            font-size: 18px;
+                            height: 70%;                
+                            .FormSocialMedia {
+                                height: 50px;                
+                                .FormSocialMediaImage {
+                                    transform: scale(.6);
+                                }                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+    .ContactoContainer {
+        width: 100vw;
+        height: 100vh;
+        .ContactoCol {
+            width: 80vw;
+            height: 80vh;
+            .ContactoSideDiv {
+                width: 10vw;
+                height: 70vh;
+            }
+            .ContactoTextContainer {
+                width: 25vw;
+                height: 40vh;
+            }
+            .ContactoContainerInfo {
+                font-family: Caviar Dreams;
+                width: 70vw;
+                height: 80vh;
+                .ContactoForm {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 60vw;
+                    height: 70vh;
+                    border-radius: 30px;
+                    background-color: #fff;
+                    color: black;
+                    box-shadow: 1px 7px 25px rgba(219, 215, 215, 0.7);
+                    .ContactoTextContainer {
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 100px;
+                        .FormTitle {
+                            font-size: 30px;
+                            margin-bottom: 5%;
+                        }
+                        .FormSocial {
+                            font-size: 18px;
+                            height: 70%;
+                            .FormSocialMedia {
+                                height: 50px;
+                                .FormSocialMediaImage {
+                                    transform: scale(.6);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 993px) and (max-width: 1199px) {
+    .ContactoContainer {
+        width: 100vw;
+        height: 100vh;
+        .ContactoCol {
+            width: 80vw;
+            height: 80vh;
+            .ContactoSideDiv {
+                width: 10vw;
+                height: 55vh;
+            }
+            .ContactoTextContainer {
+                width: 25vw;
+                height: 40vh;
+            }
+            .ContactoContainerInfo {
+                font-family: Caviar Dreams;
+                width: 70vw;
+                height: 80vh;
+                .ContactoForm {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 55vw;
+                    height: 55vh;
+                    border-radius: 30px;
+                    background-color: #fff;
+                    color: black;
+                    box-shadow: 1px 7px 25px rgba(219, 215, 215, 0.7);
+                    .ContactoTextContainer {
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 60px;
+                        .FormTitle {
+                            font-size: 30px;
+                            margin-bottom: 10%;
+                        }
+                        .FormSocial {
+                            font-size: 18px;
+                            height: 70%;
+                            .FormSocialMedia {
+                                height: 50px;
+                                .FormSocialMediaImage {
+                                    transform: scale(.6);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+    .ContactoContainer {
+        width: 100vw;
+        height: 90vh;
+        .ContactoCol {
+            width: 80vw;
+            height: 80vh;
+            .ContactoSideDiv {
+                width: 10vw;
+                height: 55vh;
+            }
+            .ContactoTextContainer {
+                width: 25vw;
+                height: 40vh;
+            }
+            .ContactoContainerInfo {
+                font-family: Caviar Dreams;
+                width: 70vw;
+                height: 70vh;
+                .ContactoForm {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 65vw;
+                    height: 55vh;
+                    border-radius: 30px;
+                    background-color: #fff;
+                    color: black;
+                    box-shadow: 1px 7px 25px rgba(219, 215, 215, 0.7);
+                    .ContactoTextContainer {
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 30px;
+                        .FormTitle {
+                            font-size: 24px;
+                            margin-bottom: 20%;
+                            margin-left: 70px;
+                        }
+                        .FormSocial {
+                            font-size: 16px;
+                            height: 70%;
+                            .FormSocialMedia {
+                                height: 50px;
+                                .FormSocialMediaImage {
+                                    transform: scale(.6);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 576px) and (max-width: 768px) {
+    .ContactoContainer {
+        width: 100vw;
+        height: 90vh;
+        .ContactoCol {
+            width: 80vw;
+            height: 80vh;
+            .ContactoSideDiv {
+                width: 10vw;
+                height: 55vh;
+            }
+            .ContactoTextContainer {
+                width: 35vw;
+                height: 40vh;
+            }
+            .ContactoContainerInfo {
+                font-family: Caviar Dreams;
+                width: 75vw;
+                height: 70vh;
+                .ContactoForm {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 90vw;
+                    height: 55vh;
+                    border-radius: 30px;
+                    background-color: #fff;
+                    color: black;
+                    box-shadow: 1px 7px 25px rgba(219, 215, 215, 0.7);
+                    .ContactoTextContainer {
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 20px;
+                        .FormTitle {
+                            font-size: 24px;
+                            margin-bottom: 20%;
+                            margin-left: 70px;
+                        }
+                        .FormSocial {
+                            font-size: 16px;
+                            height: 70%;
+                            .FormSocialMedia {
+                                height: 50px;
+                                .FormSocialMediaImage {
+                                    transform: scale(.6);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 200px) and (max-width: 575px) {
+    .ContactoContainer {
+        width: 100vw;
+        height: 65vh;
+        margin-bottom: 5vh;
+        .ContactoCol {
+            width: 100vw;
+            height: 80vh;
+            .ContactoSideDiv {
+                display: none;
+            }
+            .ContactoTextContainer {
+                width: 35vw;
+                height: 40vh;
+            }
+            .ContactoContainerInfo {
+                font-family: Caviar Dreams;
+                width: 90vw;
+                height: 70vh;
+                .ContactoForm {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 950vw;
+                    height: 45vh;
+                    border-radius: 30px;
+                    background-color: #fff;
+                    color: black;
+                    box-shadow: 1px 7px 25px rgba(219, 215, 215, 0.7);
+                    .ContactoTextContainer {
+                        display: flex;
+                        flex-direction: column;
+                        width: 85%;
+                        .FormTitle {
+                            font-size: 20px;
+                            margin-bottom: 10%;
+                        }
+                        .FormSocial {
+                            font-size: 16px;
+                            height: 75%;
+                            .FormSocialMedia {
+                                height: 50px;
+                                .FormSocialMediaImage {
+                                    transform: scale(.6);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

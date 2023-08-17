@@ -1,0 +1,7 @@
+@media all and (min-width: 200px) and (max-width: 575px) {
+    .BurgerMenu{
+        .BurgerMenuCheckbox:checked~.BurgerMenuContent {
+            width: 70vw;
+        }
+    }
+}

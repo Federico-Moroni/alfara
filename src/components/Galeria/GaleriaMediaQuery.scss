@@ -1,0 +1,60 @@
+@media all and (min-width: 1500px) {
+    .GaleriaContainer {
+        height: 90vh;
+        .GaleriaTitle {
+            font-size: 32px;
+            margin-bottom: 55px;
+            }
+    }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+    .GaleriaContainer {
+        height: 90vh;
+        .GaleriaTitle {
+            font-size: 32px;
+            margin-bottom: 55px;
+        }
+    }
+}
+
+@media all and (min-width: 993px) and (max-width: 1199px) {
+    .GaleriaContainer {
+        height: 90vh;
+        .GaleriaTitle {
+            font-size: 32px;
+            margin-bottom: 55px;
+        }
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+    .GaleriaContainer {
+        margin-top: 10vh;
+        height: 80vh;
+        .GaleriaTitle {
+            font-size: 24px;
+            margin-bottom: 55px;
+        }
+    }
+}
+
+@media all and (min-width: 576px) and (max-width: 768px) {
+    .GaleriaContainer {
+        height: 60vh;
+        .GaleriaTitle {
+            font-size: 24px;
+            margin-bottom: 55px;
+        }
+    }
+}
+
+@media all and (min-width: 200px) and (max-width: 575px) {
+    .GaleriaContainer {
+        height: 70vh;
+        .GaleriaTitle {
+            font-size: 24px;
+            margin-bottom: 55px;
+        }
+    }
+}

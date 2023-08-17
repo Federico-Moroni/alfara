@@ -1,0 +1,128 @@
+@media all and (min-width: 1500px) {
+    .NavbarContainer {
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+            .NavbarRow {
+                .NavbarColumn {
+                    display: flex;
+                    justify-content: end;
+                    .NavbarUl {
+                        display: flex;
+                        align-items: flex-end;
+                        justify-content: space-evenly;
+                        list-style: none;
+                        margin-right: 7em;
+                        .NavbarLi {
+                            margin: 0 30px;
+                        }
+                    }
+                }
+                .BurgerMenuLabel{
+                    display: none;
+                }
+            }
+        }
+    }
+
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+    .NavbarContainer {
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        .NavbarRow {
+            .NavbarColumn {
+                display: flex;
+                justify-content: end;
+                .NavbarUl {
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: space-evenly;
+                    list-style: none;
+                    margin-right: 4em;
+                    .NavbarLi {
+                        margin: 0 20px;
+                    }
+                }
+            }
+            .BurgerMenuLabel{
+                display: none;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 993px) and (max-width: 1199px) {
+    .NavbarContainer {
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        .NavbarRow {
+            .NavbarColumn {
+                display: flex;
+                justify-content: end;
+                .NavbarUl {
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: space-evenly;
+                    list-style: none;
+                    margin-right: 2em;
+                    .NavbarLi {
+                        margin: 0 15px;
+                    }
+                }
+            }
+            .BurgerMenuLabel{
+                display: none;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+    .NavbarContainer {
+        width: 100vw;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        .NavbarRow {
+            .NavbarColumn {
+                display: none;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 576px) and (max-width: 768px) {
+    .NavbarContainer {
+        width: 100vw;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        .NavbarRow {
+            .NavbarColumn {
+                display: none;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 200px) and (max-width: 575px) {
+    .NavbarContainer {
+        width: 100vw;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        .NavbarRow {
+            .NavbarColumn {
+                display: none;
+            }
+        }
+    }
+}
